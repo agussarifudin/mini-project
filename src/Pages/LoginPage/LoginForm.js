@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect, useContext } from 'react';
 import logo from '../../Asset/images/dbo.png';
-
+import HOME from '../ProductPage/home.js';
+import './loginCSS.css'
 
 const Login = () => {
    
@@ -23,8 +24,8 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log(user,pwd);
-        setUser('asd');
-        setPwd('asd');
+        setUser('');
+        setPwd('');
         setSuccess(true);
         
     }
@@ -32,19 +33,13 @@ const Login = () => {
     return (
         <>
             {success ? (
-                <section>
-                    <h1>You are logged in!</h1>
-                    <br />
-                    <p>
-                        <a href="#">Go to Home</a>
-                    </p>
-                </section>
+               <HOME/>
             ) : (
                 <section>
                     <img src={logo} className="app-logo"/>
                     <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
                     <h1>Sign In</h1>
-                    <form onSubmit={handleSubmit}>
+                    <form onSubmit={handleSubmit} className="login">
                         <label htmlFor="username">Username:</label>
                         <input
                             type="text"
@@ -55,7 +50,7 @@ const Login = () => {
                             value={user}
                             
                         />
-
+                        
                         <label htmlFor="password">Password:</label>
                         <input
                             type="password"

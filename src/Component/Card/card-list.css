@@ -1,0 +1,24 @@
+.card-list {
+ 
+}
+
+.card-container {
+  float: left;
+  width: 20%;
+  background-color: aquamarine;
+  border-radius: 25px;
+  border: 1px solid rgb(22, 247, 255);
+  background: rgb(255,254,254);
+  background: linear-gradient(219deg, rgba(255,254,254,1) 0%, rgba(241,241,246,1) 60%, rgba(0,187,255,1) 100%);
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+
+.h2{
+  color :rgb(7, 7, 52);
+  font-family: roboto;
+  font-size: 10px;
+}
