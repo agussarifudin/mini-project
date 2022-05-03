@@ -1,0 +1,48 @@
+.na{
+    background: rgb(100, 174, 227);
+    text-shadow: 10px;
+    border-radius: 30px;
+    letter-spacing: 5px;
+}
+
+
+
+.logo{
+    width: 50px;
+    
+}
+
+.navigation {
+    padding-top: 10px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      padding: 25px;
+    }
+  
+  
+    .nav-links-container {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    
+       
+      }
+
+      .jumlah{
+          padding: 0 3px;
+          background-color: brown;
+          color:aliceblue;
+          font-weight: bold;
+          border-radius: 5px;
+          position: relative;
+          top:-15px;
+      }

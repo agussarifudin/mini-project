@@ -1,10 +1,22 @@
 import { useRef, useState, useEffect, useContext } from 'react';
-import logo from '../../Asset/images/dbo.png';
+import logo from '../../Asset/Images/dbo.png';
 import HOME from '../ProductPage/home.js';
 import './loginCSS.css'
 
+import {
+    signInWithGooglePopup,
+    createUserDocumentFromAuth,
+  } from '../../Test/firebase';
+
+
+
 const Login = () => {
-   
+    
+    
+    
+
+
+
     const userRef = useRef();
     const errRef = useRef();
 
@@ -33,9 +45,11 @@ const Login = () => {
     return (
         <>
             {success ? (
+                
                <HOME/>
             ) : (
-                <section>
+                <section className='bodyLogin'>
+                  <div className='form'>
                     <img src={logo} className="app-logo"/>
                     <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
                     <h1>Sign In</h1>
@@ -60,10 +74,13 @@ const Login = () => {
                             required
                         />
                         <button>Sign In</button>
+
+                        <button >GOOGLE SIGN IN</button>
                     </form>
                     <p>
                         
                     </p>
+                    </div>
                 </section>
             )}
         </>

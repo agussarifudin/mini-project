@@ -1,0 +1,70 @@
+[
+    {
+      "id": 1,
+      "type": "Rucika",
+      "name": "Pipa PVC",
+      "price": 20000
+      
+      }
+      ,
+      {
+        "id": 2,
+        "type": "Djabesmen",
+        "name": "Djabesmen",
+        "price": 20000
+        },
+        {
+          "id": 3,
+          "type": "RoyalBoard",
+          "name": "Papan",
+          "price": 20000
+          }
+          ,
+          {
+            "id": 4,
+            "type": "Rucika",
+            "name": "Pipa PVC",
+            "price": 20000
+            },
+            {
+              "id": 5,
+              "type": "Rucika",
+              "name": "Pipa PVC",
+              "price": 20000
+              }
+              ,
+              {
+                "id": 6,
+                "type": "Djabesmen",
+                "name": "Djabes Genteng",
+                "price": 20000
+                },
+                {
+                  "id": 7,
+                  "type": "RoyalBoard",
+                  "name": "Skirting",
+                  "price": 20000
+                  }
+                  ,
+                  {
+                    "id": 8,
+                    "type": "RoyalBoard",
+                    "name": "Siding",
+                    "price": 20000
+                    }
+                    ,
+                {
+                  "id": 9,
+                  "type": "Djabesmen",
+                  "name": "Djabes 6",
+                  "price": 20000
+                  }
+                  ,
+                  {
+                    "id": 10,
+                    "type": "Djabesmen",
+                    "name": "Djabes 14",
+                    "price": 20000
+                    }
+
+      ]
